@@ -38,7 +38,7 @@ text
 
 **使用方法：**
 
-```bash
+# ```bash
 
 python get_video.py
 交互流程：
@@ -69,7 +69,7 @@ python get_video.py
 使用方法：
 
 bash
-python generate_subtitle.py
+# python generate_subtitle.py
 交互流程：
 
 设置 Whisper 模型存放目录
@@ -100,7 +100,7 @@ python generate_subtitle.py
 使用方法：
 
 bash
-python ffmpeg_merge_tool.py
+# python ffmpeg_merge_tool.py
 交互流程：
 
 选择文件目录
@@ -129,17 +129,17 @@ python ffmpeg_merge_tool.py
 使用方法：
 
 bash
-python bilibili.py
+# python bilibili.py
 📦 依赖安装
 创建虚拟环境
 bash
-python -m venv .venv
+# python -m venv .venv
 .venv\Scripts\activate  # Windows
 安装依赖
 bash
-pip install yt-dlp           # get_video.py 核心依赖
-pip install openai-whisper   # 字幕生成工具
-pip install ffmpeg-python    # 音视频处理（可选）
+# pip install yt-dlp           # get_video.py 核心依赖
+# pip install openai-whisper   # 字幕生成工具
+# pip install ffmpeg-python    # 音视频处理（可选）
 外部工具
 FFmpeg：音视频处理核心，需单独安装并添加到 PATH
 
@@ -171,13 +171,13 @@ uise-official.com_cookies.txt：UISE 网站认证 Cookie
 🚀 快速开始
 下载视频（最常用）
 bash
-python get_video.py
+# python get_video.py
 生成字幕
 bash
-python generate_subtitle.py
+# python generate_subtitle.py
 合并音视频
 bash
-python ffmpeg_merge_tool.py
+# python ffmpeg_merge_tool.py
 ⚠️ 注意事项
 视频版权：请仅下载您有权获取的内容，遵守目标网站的服务条款。
 
